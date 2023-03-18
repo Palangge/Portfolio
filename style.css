@@ -1,6 +1,6 @@
 * {
   box-sizing: content-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   margin:0;
   padding:0;
   
@@ -11,7 +11,7 @@
 }
 
 .box{
-  border: 1px solid rgba(255, 0, 0, 0.315);
+  border: 1px solid black;
   height: 300px;
   width: 100%;
   background-color: white;
@@ -50,8 +50,15 @@
 }
 
 .nav-link {
+  color: white !important;
   padding-right: .5rem !important;
   padding-left: .5rem !important;
+  
+}
+
+.nav-link:hover {
+  color: black;
+  opacity: 0.5;
 }
 
 .school {
@@ -133,7 +140,7 @@
 
 @media screen and (max-width:991px) {
   
-ul.custom-nav .nav-item * {
+ul.custom-nav .nav-item *:not(.p-clear) {
   padding-left: 70% !important;
 }
 }

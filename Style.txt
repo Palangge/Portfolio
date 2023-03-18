@@ -17,3 +17,30 @@
     left: auto !important;
     right: 0px;
 }
+
+//* 
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle p-clear ps-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About Me
+                  </a>
+                  <ul class="dropdown-menu p-clear ps-0">
+                    <li class=" p-clear ps-0">
+                      <a class="dropdown-item p-clear ps-2" href="#">
+                        Action
+                      </a>
+                    </li>
+                    <li class=" p-clear ps-0">
+                      <a class="dropdown-item p-clear ps-2" href="#">
+                        Another action
+                      </a>
+                    </li>
+                    <li class=" p-clear ps-0">
+                      <a class="dropdown-item p-clear ps-2" href="#">
+                        Something else here
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+*//
